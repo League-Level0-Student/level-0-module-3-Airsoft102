@@ -32,7 +32,7 @@ public class FizzBuzz {
 			} else {
 				System.out.println(i);
 
-				if (i % 5 == 0) {
+				else if (i % 5 == 0) {
 					System.out.println("buzz");
 				} else {
 					System.out.println(i);
